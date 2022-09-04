@@ -7,14 +7,16 @@
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
+
+.App-content {
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +37,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+form input {
+  width: 300px;
+  height: 26px;
+  border-radius: 15%;
+  display: flex;
+}
+
+form button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 0;
+  margin-top: 10px;
+  border: solid 1px transparent;
+  border-radius: 10px;
+  border-style: ridge;
+  border-color: aliceblue;
+  padding: 0.5em 1em;
+  color: #ffffff;
+  background-color: rgb(2, 166, 13);
+  height: 30px;
+  width: 120px;
+}
+
+h3 {
+  margin: 0;
+}
+
+.list {
+  display: flex;
+  margin: 5px;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+
+.Agrega-tareas{
+  color: #6bfb61;
+  padding-bottom: 5px;
+}
+
+.btn-delete {
+  margin: 5px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px transparent;
+  border-radius: 7px;
+  border-color: aliceblue;
+  color: #ffffff;
+  background-color: rgb(251, 48, 48);
+  height: 30px;
+  width: 30px;
 }
